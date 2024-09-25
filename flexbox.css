@@ -1,0 +1,34 @@
+#parent{
+    border: 5px solid salmon;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: baseline;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row-reverse; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: flex;
+}
+/* #parent div{
+    width: 100px;
+    height: 100px;
+} */
+.one{
+    width: 100px;
+    height: 100px;
+}
+#one{
+    background-color: red;
+}
+#two{
+    background-color: blue;
+}
+#three{
+      background-color: green;
+}

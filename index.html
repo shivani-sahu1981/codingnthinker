@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <head>
+        <style>
+            h1{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <!--lecture 1  today we are study html, body, heading, paragraph, list:-orderlist unorderlist-->
+        <h1>LECTURE 1</h1>
+        <h1>hello</h1>
+        <h2 style="background-color: aqua;">hello</h2>
+        <h3>hello</h3>
+        <h4 class="one">hello</h4>
+        <h5 id="two">hello</h5>
+        <h6>hello</h6>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquid quasi molestiae tenetur, fugit ducimus quisquam neque eaque deleniti alias reprehenderit soluta quibusdam quos ratione quidem dignissimos laudantium, impedit voluptates.</p>
+
+        <ol type="A" start="2">
+            <li>iron man
+                <ol>
+                    <li>iron man</li>
+                    <li>iron man</li>
+                    <li>iron man</li>
+                </ol>
+            </li>
+            <li>iron man</li>
+            <li>iron man</li>
+            <li>iron man</li>
+        </ol>
+
+        <ul type="">
+            <li>iron man</li>
+            <li>iron man</li>
+            <li>iron man</li>
+            <li>iron man</li>
+        </ul>
+
+        <ol>
+            <li type="A">dosa
+                <ol>
+                    <li>masala dosa</li>
+                    <li> butter masala dosa</li>
+                    <li>paneer dosa</li>
+                </ol>
+            </li>
+        </ol>
+        
+        <!-- lecture 2 today we are discuss about the link href, fieldset, legand,target, input tag, radio, button-->
+        <h1>LECTURE 2</h1>
+        <a href="http://google.com" target="_blank">google</a>
+        <a href="http://amazon.com" target="_blank">amazon</a>
+        <a href="index.html">index</a>
+        <a href="nav.js/house.html">house</a><br></br>
+
+        <form>
+            <fieldset>
+                <legend>form</legend>
+                <span>name:</span>
+                <input type="text" placeholder="enter your name"/> <br><br>
+                <span>number:</span>
+                <input type="number" placeholder="enter your number"/> <br><br>
+                <span>password:</span>
+                <input type="password" placeholder="enter your password"/> <br><br>
+                <span>file:</span>
+                <input type="file" placeholder="enter your file"/> <br><br>
+                <span>date:</span>
+                <input type="date" placeholder="enter your date"/> <br><br>
+                <span>time:</span>
+                <input type="time" placeholder="enter your date"/> <br><br>
+                <span>male:</span>
+                <input type="radio" name="name"/>
+                <span>female:</span>
+                <input type="radio" name="name"/> <br><br>
+                <input type="checkbox"/>
+                <button>submit</button>
+               
+            </fieldset>
+        </form>
+
+        <!--Lecture 3 today we are discuss about the label tag, table tag, tr, th, td-->
+
+        <h1>LECTURE 3</h1>
+
+        <fieldset>
+           <legend>registration form</legend>
+           <h1 >SATI</h1>
+            <label for="one">Name:</label>
+            <input type="name" id="one" placeholder="enter first name"><br><br>
+            <label for="tw">Last Name :</label>
+            <input type="name" id="tw" placeholder="enter last name"><br><br>
+            <label for="three">father'name:</label>
+            <input type="name" id="three" placeholder="enter name"><br><br>
+            <label for="four">Mother's Name:</label>
+            <input type="name" id="four" placeholder="enter name"><br><br>
+            <label for="five">date of birth</label>
+            <input type="date" id="five" placeholder="date"><br><br>
+            <label for="six">Number:</label>
+            <input type="number" id="six" placeholder="enter your number"><br><br>
+            <label for="seven">email</label>
+            <input type="email" id="seven" placeholder="enter email"><br><br>
+            <label for="eight">Name:</label>           
+            <input type="password" id="eight" placeholder="enter number"><br><br>
+            <label for="on">Male:</label>
+            <input type="radio" id="on" name="name">
+            <label for="off">Female:</label>
+            <input type="radio" id="off" name="name"><br><br>
+            <label for="if">Address:</label>
+            <input type="name" id="if" placeholder="address"><br><br>
+            <label>City:</label>
+            <select>
+            <option>delhi</option>
+            <option>bhopal</option>
+            <option>indore</option>
+            <option>vidisha</option>
+            <option>mumbai</option>
+           </select><br><br>
+
+           <span>State</span>
+           <select>
+            <option>Madhya Pradesh</option>
+            <option>uttar pradesh</option>
+            <option>andhra pradesh</option>
+            <option>gujrat</option>
+            <option>arunachal pradesh</option>
+
+           </select><br><br>
+           <button>submit</button>
+        </fieldset><br>
+
+        <h1>Registration Form</h1>
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="on">Name:-</label>
+            <input id="on" type="text" placeholder="enter name"><br><br>
+            <label for="if">Date:-</label>
+            <input id="if" type="date" placeholder="date"><br><br>
+            <label>Gender:</label>
+            <label for="ml">Male</label>
+            <input type="radio" id="ml" name="name">
+            <label for="fe">Female</label>
+            <input type="radio" id="fe" name="name">
+            <label for="ot">other</label>
+            <input type="radio" id="ot" name="name">
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact information</legend>
+            <label for="em">Email:-</label>
+            <input id="em" type="email" placeholder="enter email"><br><br>
+            <label for="no">Number:-</label>
+            <input id="no" type="number" placeholder="enter number"><br><br>
+            <label for="ad">Address:-</label>
+            <input id="ad" type="Adderss" placeholder="enter address">
+        </fieldset>
+
+        <fieldset>
+            <legend>Account details</legend>
+            <label for="us">Username:-</label>
+            <input id="us" type="text" placeholder="enter name"><br><br>
+            <label for="ps"></label>
+            <label for="ps">Password:-</label>
+            <input id="on" type="password" placeholder="enter password"><br><br>
+            <label for="on">Confirm password:-</label>
+            <input id="on" type="password" placeholder="enter password">
+        </fieldset>
+
+        <fieldset>
+            <legend>Preference</legend>
+            <label for="co">Color:-</label>
+            <input id="co" type="color" placeholder="enter name"><br><br>
+            <label for="fi">Upload Profile:-</label> 
+            <input id="fi" type="file" placeholder="enter name"><br><br>
+            <label>Interests:</label>
+            <label for="re">reading</label>
+            <input type="checkbox" id="re" name="name">
+            <label for="tr">travelling</label>
+            <input type="checkbox" id="tr" name="name">
+            <label for="cd">other</label>
+            <input type="coding" id="cd" name="name">
+        </fieldset><br>
+
+
+        <table border="10" cellspacing="5"> 
+            <tr>
+                <th>day</th>
+                <th>1pm to 2pm</th>
+                <th>2pm to 3pm</th>
+                <th>3pm to 4pm</th>
+                <th>4pm to 5pm</th>
+            </tr>
+
+            <tr>
+                <td>monday</td>
+                <td>data analysis</td>
+                <td>compiler</td>
+                <td>lunch time</td>
+                <td>AI</td>
+            </tr>
+
+            <tr>
+                <td>tuesday</td>
+                <td>computer network</td>
+                <td>DBMS</td>
+                <td>lunch time</td>
+                <td>operating system</td>
+            </tr>
+
+            <tr>
+                <td>wednesday</td>
+                <td rowspan="2">data anlysis</td>
+                <td>Artificial intelligence</td>
+                <td>lunch time</td>
+                <td rowspan="2">compiler</td>
+            </tr>
+
+            <tr>
+                <td>thursday</td>
+              <!--  <td>data anlysis</td>-->
+                <td>Artificial intelligence</td>
+                <td>lunch time</td>
+               <!-- <td>compiler</td>-->
+            </tr>
+
+            <tr>
+                <td>friday</td>
+                <td>computer network</td>
+                <td>DBMS</td>
+                <td>lunch time</td>
+                <td>operating system</td>
+            </tr>
+        </table><br>
+
+        <table border="10" cellspacing="10">
+            <tr>
+                <th rowspan="2">StudentiId</th>
+                <th colspan="2">Name</th>
+                <th rowspan="2">Age</th>
+                <th rowspan="2">Grade</th>
+                <th rowspan="2">Email</th>
+            </tr>
+
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
+
+           <tr>
+            <td>1</td>
+            <td>kartik</td>
+            <td>sahu</td>
+            <td>15</td>
+            <td>A</td>
+            <td>kartik@123gmail.com</td>
+           </tr>
+
+           <tr>
+            <td>2</td>
+            <td>palak</td>
+            <td>sahu</td>
+            <td>16</td>
+            <td>A</td>
+            <td>palak@123gmail.com</td>
+           </tr>
+
+           <tr>
+            <td>2</td>
+            <td>shivani</td>
+            <td>sahu</td>
+            <td>16</td>
+            <td>A</td>
+            <td>shivani@123gmail.com</td>
+           </tr>
+
+           <tr>
+            <td>2</td>
+            <td>sanskriti</td>
+            <td>sahu</td>
+            <td>16</td>
+            <td>A</td>
+            <td>sanskritik@123gmail.com</td>
+           </tr>
+        </table><br>
+
+    </body>
+</html>
+
+<html>
+    <body>
+        <table border="10" cellspaing="10">
+            <tr>
+                <th rowspan="2">Student id</th>
+                <th colspan="2">Name</th>
+                <th rowspan="2">Age</th>
+                <th rowspan="2">Grade</th>
+                <th rowspan="2">Email</th>
+            </tr>
+
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>raj</td>
+                <td>sharma</td>
+                <td>20</td>
+                <td>B</td>
+                <td>raj@123gmail.com</td>
+            </tr>
+        </table>
+
+        <!--todat's we are discuss about the img, video, audio, iframe , progress-->
+        <h1>LECTURE 4</h1>
+        <h2>Sanchi Stupa</h2>
+        <p>Sanchi is a hot spot for Buddhist tourist in India. It is situated at Sanchi in Raisen district of Madhya Pradesh. The Great Stupa at Sanchi is the oldest stone structure in India and was originally commissioned by the emperor Ashoka, the Great in the 3rd century BCE. 
+             The stupa is located on a hill whose height is 91 m (298.48 ft.). Sanchi tagged as the World Heritage site by UNESCO in 1989.</p>
+        <img src="http://www.jagranjosh.com/imported/images/E/Articles/Sanchi-Stupa.jpg" width="500px"><br><br>
+
+        <video src="bill.html.mp4" width="500px" controls ></video><br><br>
+
+        <audio src="ram siya ram mp3.com.mp3" controls></audio><br><br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3oLsHkAHxnA?si=YNajB-1lED0JrY52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <progress></progress>
+
+        <!--today's we are discuss about the color property type of css inline css, internal css, external css, class(.), id(#), anchor tag search with starting tag , search with ending tag , search with center or selected tag, -->
+        <!--inline css-->
+        <h1 style="color: red;">LECTURE 5</h1>
+        <h1>LECTURE 6</h1>
+        <!--today we are discuss about the div tag and span tag, property background color. width, height, hover, transition tag, unit -->
+
+            <!-- <div>
+                <p>hello</p>
+            </div>
+            <span>
+                <p>hello</p>
+            </span>
+                <li>hiiiiiiiiiii</li>
+                <li>hiiiiiiiiiii</li>
+                <li>hiiiiiiiiiii</li>
+                <div class="outer">
+                    <div class="inner">
+                        
+                    </div>
+                </div>  -->
+                
+                <ol>
+                    <li>iron man 32px
+                        <ol> 32px
+                            <li>64px
+                                iron man ka man
+                                <ol> 64px
+                                    <li>iron man one ka one
+                                    </li>128px
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>iron man</li>
+                </ol>
+                <!--today we are discuss about the box model, margin, padding, border -->
+
+                <h1>LECTURE 7</h1>
+                <!-- <div>
+                    modiji
+                </div>
+                <span class="sh">
+                    hello
+                </span> -->
+
+                <div></div>
+                <div></div>
+                <div></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ipsa officia. Quam quisquam fugiat excepturi facilis alias obcaecati sapiente possimus. Corrupti itaque incidunt asperiores, rerum fugiat exercitationem sunt. Nihil est asperiores cumque maiores reprehenderit et reiciendis! Iste, blanditiis quia. Distinctio asperiores esse quaerat aut iure ut eos error animi commodi explicabo corrupti omnis, necessitatibus quisquam quam iusto obcaecati cum. Nesciunt a quo saepe voluptatem dicta omnis. Debitis, temporibus inventore doloremque ipsum beatae expedita obcaecati maxime saepe. Nesciunt iste iusto voluptates similique illum aspernatur tenetur accusantium placeat, nihil maiores officiis non natus at facilis praesentium ad ullam beatae nulla quidem quae obcaecati voluptate vitae delectus. Iste, asperiores impedit numquam illo temporibus recusandae laudantium ipsam quis alias vitae laborum harum possimus ipsum aperiam ipsa modi laboriosam enim at deleniti! Possimus eligendi magnam consequatur odio ipsam quas? Voluptatem debitis consectetur ipsum, saepe sit officia totam voluptate hic. Beatae maiores quos laboriosam labore quasi ut iure officia iste distinctio eos, accusantium libero voluptates eligendi quibusdam ratione asperiores praesentium hic quam corrupti tempora quaerat atque repellendus. Ratione quaerat sit, hic dignissimos libero, necessitatibus unde culpa rerum sapiente assumenda ab ducimus officiis corporis similique. Mollitia commodi laborum atque dolor quae, sapiente dolore. Officia perspiciatis non ullam aliquid eligendi mollitia sit, laboriosam veritatis labore cum accusantium voluptas ipsam. Quasi numquam pariatur a nobis odit sunt fugit explicabo ipsam, repellendus, placeat voluptatum! Atque et eos laboriosam possimus? A eum inventore ad, quia adipisci iusto quam sed perspiciatis alias nostrum eos, velit ullam accusamus porro voluptate animi, atque repellat amet. At, sunt, corrupti id iste dolores saepe libero laboriosam nemo, reiciendis atque voluptas eius illum? Illo pariatur perferendis blanditiis facilis unde corporis nemo sint ab provident quisquam placeat inventore non repudiandae exercitationem esse rem hic culpa officia, molestias iste aut minima assumenda! Atque eveniet nisi perferendis minima, ut impedit fuga rerum similique at cumque neque necessitatibus quod incidunt id! Adipisci ullam dolorum fugiat tempore reiciendis? Reiciendis, officia. Quidem, quibusdam perspiciatis vero dolorem dolore architecto voluptates unde atque soluta debitis provident totam incidunt officiis sed error qui optio quia corrupti. Aliquid earum, atque nulla incidunt assumenda amet nesciunt adipisci? Id aliquid repellendus ad praesentium blanditiis porro eaque impedit, ipsa harum vero aperiam vel accusamus culpa vitae quo, ipsum nam officiis unde quidem? Soluta illum quae necessitatibus hic, vero expedita culpa recusandae accusantium vel exercitationem, repudiandae consequatur officiis nihil magni deleniti. Quia maxime facere autem voluptatem veniam odit, est corporis nemo animi cupiditate non repudiandae nulla alias, aliquid adipisci? Voluptates recusandae nihil expedita labore consequuntur nobis obcaecati minus ut pariatur dolorem. Delectus in nam, nostrum praesentium consectetur dignissimos velit. Nisi porro quo iure voluptatum ex aspernatur excepturi illum qui, quam quia, deserunt placeat iste odit itaque tenetur ea tempora delectus repellat dolore voluptates corporis magni pariatur consequuntur! Cumque aliquid, aperiam autem totam consectetur laborum nisi suscipit ratione nemo saepe, alias necessitatibus voluptatum modi vitae harum accusantium magni ipsam explicabo atque quaerat! Neque esse voluptatem impedit totam sapiente, autem accusamus suscipit optio cumque, necessitatibus nobis molestiae amet ducimus earum mollitia culpa cum vero provident! Mollitia officia et aperiam, blanditiis facere est. Ullam fugiat omnis libero molestias, a est in, ratione assumenda culpa neque nisi magnam officiis veritatis deserunt quas totam hic vel quaerat unde. Rerum deleniti assumenda non, dicta cumque animi quia temporibus sequi totam nobis tempore at odit fugit magni quisquam eos dolorum ad voluptate culpa repellendus pariatur tenetur nulla facilis nihil. Incidunt perferendis assumenda tempora doloremque, debitis accusamus corporis consectetur magni, ut nobis iure odit eum repellat dolorem quibusdam eius vel rerum illo consequatur minus, fuga quidem. Aliquid similique, culpa voluptatibus quis molestiae unde quasi architecto, enim delectus dignissimos ad, reprehenderit distinctio voluptates minus non exercitationem quia? Corporis ducimus voluptates sunt dignissimos atque repudiandae consequatur est perspiciatis minus ratione, earum autem? Officiis ex mollitia, aspernatur fuga facilis cum, deleniti consectetur incidunt inventore rerum molestiae? Pariatur non repellendus esse rem corporis. Ipsum reiciendis repellendus, aliquam quae eveniet, numquam quasi ipsa, fugit ex corporis quas libero asperiores quisquam commodi beatae eligendi aut alias incidunt est voluptatem voluptatum rerum magni nisi! Facilis quaerat, quae amet voluptatem corporis saepe maiores commodi pariatur optio deserunt qui iusto error dolor molestias ad? Laboriosam aut nesciunt soluta non exercitationem vitae atque. Tempora ipsum in, animi explicabo esse mollitia culpa numquam similique voluptates deleniti laborum enim ab aliquid, reprehenderit aperiam aliquam nostrum maiores, sit cupiditate iure inventore! Odit voluptate velit ipsam beatae ad incidunt qui animi laudantium, laborum, explicabo quo tempore! Explicabo quae repellat voluptatem maiores assumenda. Vel ut facilis perspiciatis facere. Odit non nobis, maxime reiciendis velit ab aliquam expedita, dolorem exercitationem minima placeat, aspernatur quae accusamus voluptate voluptates quos tempora cupiditate molestiae temporibus asperiores fugit. Fugit beatae eligendi, iste sapiente voluptatum, ea nostrum quisquam facilis nam dolores ducimus illum commodi ipsum repellendus consequatur ratione, perspiciatis ad doloribus a pariatur distinctio veritatis! Sint, voluptatum nemo minus aut temporibus quidem ducimus quasi enim quod, nobis iure eum beatae numquam autem unde veritatis voluptatem eius odit praesentium inventore laborum repellat. Ab obcaecati consequuntur vero iure quisquam minus, voluptatibus at. Eligendi animi provident atque enim quibusdam beatae illum vel facilis similique, quia corrupti pariatur doloribus vero vitae aperiam quas rem itaque eius mollitia accusantium. Hic animi, qui repellendus, repudiandae veritatis suscipit cumque aliquid pariatur eligendi voluptatem quam nam ab. Nesciunt vel expedita beatae fugit optio aut ipsa tenetur voluptas aliquid sint. Doloribus, consectetur? Inventore neque voluptatum tenetur dolores blanditiis, ea beatae eligendi ab quod sed. Sed dicta ad sapiente voluptas fugiat officiis, quis tempore fugit veniam iste. Minima, ipsa inventore perspiciatis temporibus blanditiis distinctio at alias rem fugiat iure deleniti corporis vel aperiam dignissimos, tempora reprehenderit, ducimus necessitatibus quaerat magnam consequuntur velit vitae. Illo, laboriosam commodi! Laboriosam, quos assumenda! Minima, officia. Quisquam nobis modi earum dolores adipisci nihil consequuntur! Voluptates maxime quia illum illo vel voluptate aspernatur labore commodi, aperiam eaque sint dolore autem voluptatum nemo est accusantium! Soluta, magnam. Quod esse magni reprehenderit id est pariatur vitae voluptatibus animi quos corrupti cum at itaque sunt nesciunt, autem minima quasi debitis ex, explicabo modi consectetur ratione adipisci iusto? Numquam quidem labore temporibus, placeat sed quam, delectus nostrum aperiam consequuntur illum dignissimos! Voluptates enim molestias porro earum optio expedita molestiae, blanditiis aut necessitatibus alias corrupti deleniti quae facilis illo placeat delectus officia dignissimos assumenda excepturi pariatur ut, quas eaque minima. Deleniti repellat quos minima eligendi, doloribus earum ipsum quaerat ad illo. Excepturi, aliquam. Veniam repellendus sed numquam nihil nemo veritatis enim! Amet unde voluptatem vel cumque magnam quod est labore quis fugit. Saepe, earum! Optio laboriosam quaerat commodi alias exercitationem reprehenderit officia vero omnis quae doloribus. Sint vitae beatae officiis molestiae accusamus, provident voluptate tenetur vel nostrum facilis? Repellendus architecto placeat sint quasi, perferendis facilis quam itaque minima voluptate alias et molestias nulla magni dolore omnis ab ex veniam quisquam, quia, qui culpa explicabo beatae obcaecati. Placeat vitae quas aliquam unde neque, dignissimos eos quae omnis accusantium at culpa hic eaque asperiores est debitis eum iste dolorum doloribus distinctio, harum ullam natus, ut possimus minima. Suscipit, vel! Velit explicabo facilis itaque, corrupti consequatur ullam sequi alias pariatur veniam quidem, ea minus doloremque, tempore error. Adipisci earum libero sequi odit sit mollitia quas explicabo esse porro beatae aliquid quia soluta, atque deserunt, suscipit asperiores repellat ipsam aperiam accusamus numquam, inventore pariatur recusandae. Repellendus ut harum suscipit magni, saepe, nostrum ratione excepturi laborum maxime non quidem culpa illum sit atque cupiditate. Non accusamus quaerat possimus sit provident illo quos aperiam, recusandae ipsa minima doloremque, maxime dolorum laborum eius sed assumenda impedit. Asperiores, temporibus debitis. Nulla aliquid dolorum saepe? Doloremque similique tempora eos magni aliquid eum ut, voluptatem nihil saepe eveniet, quae sapiente quos laudantium eligendi enim aliquam consectetur placeat quibusdam recusandae? Porro, amet! Earum magni eaque vel! Perspiciatis aliquam molestias laborum voluptatibus error exercitationem, pariatur facere quia saepe provident sed, rerum eaque expedita perferendis facilis iusto! Repellendus eligendi commodi necessitatibus maxime magni, fuga distinctio recusandae. Reiciendis error non, id distinctio optio nobis voluptas dolore, quod ipsam magni vitae porro eum quibusdam iure molestias aut quidem nihil! Vel minima atque tenetur, perspiciatis illum pariatur sit aliquid cumque error ducimus delectus laudantium quisquam magnam placeat commodi quia laborum? Cum vitae facilis quisquam, nisi officiis tempore. Id nesciunt perferendis enim quibusdam dolores exercitationem, error iusto laborum excepturi voluptatum tenetur reprehenderit laboriosam dolor, vero tempore ut aliquid neque nihil alias doloremque obcaecati ipsam? Reiciendis, libero in. Quam totam nostrum similique hic, sit at culpa ea tenetur perspiciatis neque consequatur earum unde architecto laudantium est enim nulla quos saepe, eveniet, illum incidunt nisi officia! Quisquam, reiciendis pariatur! Molestias, earum? Corporis rerum ipsum dolorum a aperiam assumenda quas quis autem, dignissimos velit earum dolore optio soluta at, eius natus, repellat unde ex quos sapiente fugiat ducimus iusto? Numquam rerum ab odio in aut minus ut itaque totam eum perspiciatis dolore inventore provident, beatae adipisci illo perferendis. Iure, fugiat. Vero molestiae nam debitis et cupiditate cum! Nesciunt sint nisi accusamus animi, dolorum reiciendis quo totam praesentium quaerat adipisci saepe aliquid temporibus corrupti nemo, itaque velit facere! Necessitatibus unde voluptas saepe possimus vel! Quas illo blanditiis incidunt omnis enim ab magni nulla dolore, inventore voluptatum perspiciatis vel modi delectus facere sapiente aliquid reiciendis doloremque necessitatibus consequuntur sint repudiandae odit maxime est porro! Pariatur cumque debitis illo repellat veritatis laboriosam, asperiores neque esse architecto assumenda corporis libero sed obcaecati hic minima molestiae dignissimos, delectus dolor fugit error in cum laborum officiis sapiente! Eius quisquam accusamus mollitia voluptate consequatur provident. Aliquam, explicabo. Assumenda quasi vel corrupti aperiam ut numquam debitis beatae ullam possimus quibusdam cumque expedita porro nam harum, non aspernatur quidem consequatur sapiente tenetur consequuntur labore. Impedit, quam eos sint tempora animi perspiciatis sit accusantium blanditiis laudantium corporis harum iste. Fuga, dignissimos repudiandae? Culpa, consequuntur ipsa voluptas tempore iusto animi excepturi, porro pariatur magnam repellat deleniti, est perspiciatis. In nobis harum exercitationem reprehenderit voluptatibus, earum itaque quaerat consectetur enim id et aspernatur nesciunt quia nostrum voluptate dolorum? Illo voluptatem beatae, non commodi quam doloribus ea, maxime quis pariatur temporibus cum porro assumenda aliquid quaerat dignissimos nobis a, placeat id consequatur architecto dolor! Praesentium nemo consectetur laborum, accusantium dolores porro laboriosam assumenda! Voluptates repellat eaque perferendis culpa suscipit, magni expedita optio vitae! Facere in itaque, iusto porro distinctio vitae doloribus minus repellat culpa fuga commodi velit tempore impedit officia fugiat assumenda a debitis nulla rerum possimus eligendi alias facilis? Officia molestias dolores molestiae consectetur ducimus ut sed blanditiis fuga quam nobis laudantium consequuntur, voluptatem expedita perspiciatis dolorem aliquam veritatis assumenda. Vero cum quas asperiores fugiat culpa, tempora totam magni inventore blanditiis maxime, ex quia sed accusamus esse debitis quae omnis facere. Nihil voluptatibus ipsa asperiores, doloremque, minus nostrum hic, nemo dolore quaerat quidem quibusdam totam illum at. Quae, quia! Error dignissimos hic soluta culpa autem? Qui in fugit corporis quaerat? Quis ullam eum cupiditate nesciunt blanditiis assumenda, odio illum, vero aut expedita quaerat amet laborum eveniet optio saepe non quo eaque quae! Dignissimos mollitia rerum aliquam? Praesentium harum nam eaque voluptas nulla deserunt minus veniam pariatur qui, dignissimos, minima corporis animi odit quasi aliquam quo cum sapiente quidem earum ea aliquid cupiditate assumenda. Sit sequi aspernatur dolorum iusto ea similique eligendi iste vitae commodi facilis quos voluptatem porro ducimus, impedit voluptatum earum cupiditate rerum repellat quasi, dignissimos sunt ut ipsam architecto esse! Reiciendis alias, dicta inventore perspiciatis, quas quam, voluptas iure id est repudiandae vero. Totam atque impedit maxime a voluptates possimus assumenda quaerat aliquam tempore temporibus debitis culpa est minima aspernatur fuga praesentium consequatur voluptas modi, error magni veniam quis consectetur! Minus, facere sunt maiores ullam doloribus magni, labore non blanditiis inventore debitis alias. Dolore assumenda nemo accusamus accusantium beatae hic, excepturi sapiente nisi laboriosam provident! Veritatis dolores et nostrum quae dolorum rem ipsum, debitis iusto quo vel possimus earum delectus facere dolor maxime laudantium facilis. At cum, beatae atque itaque illo enim labore quas minus dolor perferendis deserunt. Aspernatur, sit sequi asperiores quibusdam sed hic modi accusamus nulla ratione nostrum amet? Impedit nihil voluptatibus nisi eligendi quaerat dolores, pariatur in maiores porro praesentium incidunt architecto enim non saepe nesciunt unde blanditiis odio sit adipisci deleniti rerum! Nemo ullam placeat et asperiores!</p>
+    </body>
+</html>
+
+ 
