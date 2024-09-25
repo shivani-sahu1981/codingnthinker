@@ -111,77 +111,9 @@ for (let i of h2){
         }*/
 
 
-        // <h1>24 septemer 2024</h1>
-console.log('heheheh');
+// <h1>24 septemer 2024</h1>
 
-      /*  let canvas= document.querySelector('canvas')
-        let pen= canvas.getContext('2d')
-  
-        let cell=50
-        let snakeC= [[0,0]]
-        let direction= 'right'
-        let gameover
-        let id= setInterval(()=>{
-          draw()
-          update()
-        },200)
-
-        document.addEventListener('keydown',(e)=>{
-          if(e.key==='ArrowLeft'){
-            direction='left'
-          }
-          else if(e.key==='ArrowDown'){
-            direction='down'
-          }
-          else if(e.key==='ArrowUp'){
-            direction='up'
-          }
-          else{
-            direction='right'
-          }
-        })
-
-        function draw(){
-          pen.clearRect(0,0, 1200,600)
-          for(let i of snakeC){
-            pen.fillStyle='red'
-            pen.fillRect(i[0],i[1],cell,cell)
-          }
-        }
-        function update(){
-          let headx= snakeC[snakeC.length-1][0]
-          let heady= snakeC[snakeC.length-1][1]
-          let newx 
-          let newy
-          if(direction==='up'){
-            newx=headx
-            newy=heady-cell
-          }
-          else if(direction==='down'){
-            newx=headx
-            newy=heady+cell
-          }
-          else if(direction==='left'){
-            newx=headx-cell
-            newy=heady
-          }
-          else{
-            newx=headx+cell
-            newy=heady
-          }
-          snakeC.push([newx,newy])
-          snakeC.shift()
-        }*/
-
-          
-
-
-
-
-// 1199,599
-  
-
- let canvas=  document.querySelector('canvas')
+/* let canvas=  document.querySelector('canvas')
  let pen=   canvas.getContext('2d')
  pen.fillStyle='red'
  let cell=50
@@ -296,14 +228,8 @@ function randomCell(){
         Math.floor(Math.random()*(600-cell)/cell)*cell
     ]
 }
-// console.log(randomCell());
 
-
-
-
-
-// console.log(Math.random()*1200,"hehe");
-// 
+*/
 
        /*fetch('https://dummyjson.com/user/me').then((res)=>{
         return res.json()
@@ -339,16 +265,16 @@ function randomCell(){
         })
         })*/
 
-        // fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`).
-        // then((res)=>{
-        //     return res.json()
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`).
+        then((res)=>{
+            return res.json()
         
-        // }).then((data)=>{
-        //     console.log(data);
+        }).then((data)=>{
+            console.log(data);
             
-        // })
+        })
 
-        // letbtn= document.querySelector('button')
+        letbtn= document.querySelector('button')
 
 
 
