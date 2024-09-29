@@ -97,7 +97,7 @@ btn.addEventListener('click',()=>{
     })
 })*/
 
-let arr=[1,2,3,4,5,6,7]
+/*let arr=[1,2,3,4,5,6,7]
 let [a,b,cs]=arr
 console.log(a);
 
@@ -112,4 +112,6 @@ console.log(obj.id,age);
 // function sum(a,b,c,d,...num){
 //     console.log();
 // }
-// sum(5,34,5,6,3,6,567)
+// sum(5,34,5,6,3,6,567)*/
+
+
